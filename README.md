@@ -20,7 +20,14 @@ $ python gitcleaner.py --stale-days 90
 - マージ済みは `git branch -d`(安全削除)。未マージ(放置・上流削除)は **`--force` を付けない限りスキップ**
 
 ## インストール
-単一ファイルなので、ダウンロードするだけです(pip 不要)。
+```
+pip install git+https://github.com/sndryu1/gitcleaner.git
+```
+(PyPI 公開後は `pip install gitcleaner`)
+
+**実行ファイル(Python 不要):** [Releases](https://github.com/sndryu1/gitcleaner/releases) から Windows / macOS / Linux 用をダウンロード。
+
+または単一ファイルだけ取得:
 ```
 curl -O https://raw.githubusercontent.com/sndryu1/gitcleaner/main/gitcleaner.py
 ```
