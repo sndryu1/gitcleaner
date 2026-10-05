@@ -2,7 +2,7 @@
 """gitcleaner: find merged / stale / orphaned git branches and delete them safely."""
 import argparse, subprocess, sys, time
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 PROTECTED = {"main", "master", "develop", "dev", "trunk", "release"}
 
 
